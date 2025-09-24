@@ -248,10 +248,10 @@ const RegisterPage: React.FC<RegisterPageProps> = ({ switchToLogin }) => {
   };
 
   return (
-    <div className="bg-white/70 backdrop-blur-xl p-8 sm:p-12 rounded-3xl shadow-2xl w-full max-w-md">
+    <div className="bg-white/70 backdrop-blur-xl p-4 sm:p-12 rounded-3xl shadow-2xl w-full max-w-md">
       <div className="text-center">
         <h1 className="text-3xl font-bold text-blue-600">Register</h1>
-        <p className="text-gray-500 mt-2">
+        <p className="text-gray-500 ">
           Welcome! Sign in using your social account or email to continue.
         </p>
       </div>
@@ -330,7 +330,7 @@ export default function App() {
       <WaveBackground />
       <div className="relative min-h-screen flex flex-col z-10">
         <Header />
-        <main className="flex-grow flex items-center justify-center p-4">
+        <main className="flex-grow flex items-center justify-center ">
           {page === "register" ? (
             <RegisterPage switchToLogin={switchToLogin} />
           ) : (
