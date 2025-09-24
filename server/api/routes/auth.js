@@ -2,7 +2,7 @@ const authMiddleware = require("../midddielware/authMiddleware"); // import midd
 const router = require("express").Router();
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
-const User = require("../modals/user");
+const User = require("../modals/User");
 
 
 
